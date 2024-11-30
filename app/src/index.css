@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #444;
+    font-weight: 600;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .main-section {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: #916BBF;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .main-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .post-section {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #ffffff;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #e3e3e3;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  p {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #666;
+  }
+  
+  p:first-child {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 5px;
+    display: inline-block;
+    font-weight: 600;
+  }
+  
+  .btn-edit {
+    background-color: #6c9e3b;
+    color: white;
+  }
+  
+  .btn-edit:hover {
+    background-color: #5b8732;
+    transform: scale(1.05);
+  }
+  
+  .btn-del {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .btn-del:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.4rem;
+    }
+  
+    .main-section {
+      padding: 20px;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  
+    button {
+      font-size: 0.9rem;
+      padding: 8px 18px;
+    }
+  }
+  
+  .simple-form {
+    width: 300px; 
+    margin: 5px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-group {
+    display: flex; /
+    align-items: center; 
+    gap: 10px; 
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    flex: 1;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-btn {
+    flex-shrink: 0; 
+    padding: 5px 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .submit-btn:hover {
+    background-color: orange;
+  }
+  
